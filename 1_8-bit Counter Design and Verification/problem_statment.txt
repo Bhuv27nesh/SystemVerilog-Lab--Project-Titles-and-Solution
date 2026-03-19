@@ -1,0 +1,6 @@
+Write structural Verilog code for an 8-bit binary counter using D flip
+flops. Implement the test bench using OOP concepts, treating the DUT
+as a black box. Compare the output of the DUT with the expected out
+put and display the corresponding results. Inputs: Clock, Reset. Ex
+pected Output: 00000000, 00000001, 00000010, 00000011, ..., 11111110,
+11111111.
