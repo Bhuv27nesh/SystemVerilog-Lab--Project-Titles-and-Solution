@@ -5,7 +5,7 @@ module dff (
     input  logic d,
     output logic q
 );
-    always_ff @(posedge clk or posedge reset) begin
+    always_ff @(posedge clk) begin
         if (reset)
             q <= 0;
         else
