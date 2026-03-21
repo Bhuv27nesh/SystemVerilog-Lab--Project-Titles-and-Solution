@@ -1,0 +1,5 @@
+Implement an 8-bit up-counter using D flip-flops in structural Verilog.
+Write an OOP-based test bench to verify the functionality of the counter.
+Treat the DUT as a black box and compare the output against the ex
+pected values. Inputs: Clock, Reset. Expected Output: 00000000, 00000001,
+00000010, 00000011, ..., 11111110, 11111111.
