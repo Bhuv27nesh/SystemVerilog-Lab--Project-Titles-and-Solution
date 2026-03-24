@@ -1,0 +1,5 @@
+Design a structural Verilog code for an 8-bit down-counter using D flip
+flops. Develop an OOP-based test bench to validate the counter’s be
+havior. Treat the DUT as a black box and compare its output with the
+expected results. Inputs: Clock, Reset. Expected Output: 11111111,
+11111110, 11111101, 11111100, ..., 00000010, 00000001, 00000000
