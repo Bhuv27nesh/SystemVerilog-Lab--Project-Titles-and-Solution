@@ -1,0 +1,267 @@
+-Info: tb.sv:25: $dumpvar ignored, as Verilated without --trace
+-------------------------------------------------------------
+Cycle | CLK | RST | DUT_OUT | EXPECTED | RESULT
+-------------------------------------------------------------
+  0   | 1   | 1   | ff      | ff       | PASS
+  1   | 1   | 0   | fe      | fe       | PASS
+  2   | 1   | 0   | fd      | fd       | PASS
+  3   | 1   | 0   | fc      | fc       | PASS
+  4   | 1   | 0   | fb      | fb       | PASS
+  5   | 1   | 0   | fa      | fa       | PASS
+  6   | 1   | 0   | f9      | f9       | PASS
+  7   | 1   | 0   | f8      | f8       | PASS
+  8   | 1   | 0   | f7      | f7       | PASS
+  9   | 1   | 0   | f6      | f6       | PASS
+ 10   | 1   | 0   | f5      | f5       | PASS
+ 11   | 1   | 0   | f4      | f4       | PASS
+ 12   | 1   | 0   | f3      | f3       | PASS
+ 13   | 1   | 0   | f2      | f2       | PASS
+ 14   | 1   | 0   | f1      | f1       | PASS
+ 15   | 1   | 0   | f0      | f0       | PASS
+ 16   | 1   | 0   | ef      | ef       | PASS
+ 17   | 1   | 0   | ee      | ee       | PASS
+ 18   | 1   | 0   | ed      | ed       | PASS
+ 19   | 1   | 0   | ec      | ec       | PASS
+ 20   | 1   | 0   | eb      | eb       | PASS
+ 21   | 1   | 0   | ea      | ea       | PASS
+ 22   | 1   | 0   | e9      | e9       | PASS
+ 23   | 1   | 0   | e8      | e8       | PASS
+ 24   | 1   | 0   | e7      | e7       | PASS
+ 25   | 1   | 0   | e6      | e6       | PASS
+ 26   | 1   | 0   | e5      | e5       | PASS
+ 27   | 1   | 0   | e4      | e4       | PASS
+ 28   | 1   | 0   | e3      | e3       | PASS
+ 29   | 1   | 0   | e2      | e2       | PASS
+ 30   | 1   | 0   | e1      | e1       | PASS
+ 31   | 1   | 0   | e0      | e0       | PASS
+ 32   | 1   | 0   | df      | df       | PASS
+ 33   | 1   | 0   | de      | de       | PASS
+ 34   | 1   | 0   | dd      | dd       | PASS
+ 35   | 1   | 0   | dc      | dc       | PASS
+ 36   | 1   | 0   | db      | db       | PASS
+ 37   | 1   | 0   | da      | da       | PASS
+ 38   | 1   | 0   | d9      | d9       | PASS
+ 39   | 1   | 0   | d8      | d8       | PASS
+ 40   | 1   | 0   | d7      | d7       | PASS
+ 41   | 1   | 0   | d6      | d6       | PASS
+ 42   | 1   | 0   | d5      | d5       | PASS
+ 43   | 1   | 0   | d4      | d4       | PASS
+ 44   | 1   | 0   | d3      | d3       | PASS
+ 45   | 1   | 0   | d2      | d2       | PASS
+ 46   | 1   | 0   | d1      | d1       | PASS
+ 47   | 1   | 0   | d0      | d0       | PASS
+ 48   | 1   | 0   | cf      | cf       | PASS
+ 49   | 1   | 0   | ce      | ce       | PASS
+ 50   | 1   | 0   | cd      | cd       | PASS
+ 51   | 1   | 0   | cc      | cc       | PASS
+ 52   | 1   | 0   | cb      | cb       | PASS
+ 53   | 1   | 0   | ca      | ca       | PASS
+ 54   | 1   | 0   | c9      | c9       | PASS
+ 55   | 1   | 0   | c8      | c8       | PASS
+ 56   | 1   | 0   | c7      | c7       | PASS
+ 57   | 1   | 0   | c6      | c6       | PASS
+ 58   | 1   | 0   | c5      | c5       | PASS
+ 59   | 1   | 0   | c4      | c4       | PASS
+ 60   | 1   | 0   | c3      | c3       | PASS
+ 61   | 1   | 0   | c2      | c2       | PASS
+ 62   | 1   | 0   | c1      | c1       | PASS
+ 63   | 1   | 0   | c0      | c0       | PASS
+ 64   | 1   | 0   | bf      | bf       | PASS
+ 65   | 1   | 0   | be      | be       | PASS
+ 66   | 1   | 0   | bd      | bd       | PASS
+ 67   | 1   | 0   | bc      | bc       | PASS
+ 68   | 1   | 0   | bb      | bb       | PASS
+ 69   | 1   | 0   | ba      | ba       | PASS
+ 70   | 1   | 0   | b9      | b9       | PASS
+ 71   | 1   | 0   | b8      | b8       | PASS
+ 72   | 1   | 0   | b7      | b7       | PASS
+ 73   | 1   | 0   | b6      | b6       | PASS
+ 74   | 1   | 0   | b5      | b5       | PASS
+ 75   | 1   | 0   | b4      | b4       | PASS
+ 76   | 1   | 0   | b3      | b3       | PASS
+ 77   | 1   | 0   | b2      | b2       | PASS
+ 78   | 1   | 0   | b1      | b1       | PASS
+ 79   | 1   | 0   | b0      | b0       | PASS
+ 80   | 1   | 0   | af      | af       | PASS
+ 81   | 1   | 0   | ae      | ae       | PASS
+ 82   | 1   | 0   | ad      | ad       | PASS
+ 83   | 1   | 0   | ac      | ac       | PASS
+ 84   | 1   | 0   | ab      | ab       | PASS
+ 85   | 1   | 0   | aa      | aa       | PASS
+ 86   | 1   | 0   | a9      | a9       | PASS
+ 87   | 1   | 0   | a8      | a8       | PASS
+ 88   | 1   | 0   | a7      | a7       | PASS
+ 89   | 1   | 0   | a6      | a6       | PASS
+ 90   | 1   | 0   | a5      | a5       | PASS
+ 91   | 1   | 0   | a4      | a4       | PASS
+ 92   | 1   | 0   | a3      | a3       | PASS
+ 93   | 1   | 0   | a2      | a2       | PASS
+ 94   | 1   | 0   | a1      | a1       | PASS
+ 95   | 1   | 0   | a0      | a0       | PASS
+ 96   | 1   | 0   | 9f      | 9f       | PASS
+ 97   | 1   | 0   | 9e      | 9e       | PASS
+ 98   | 1   | 0   | 9d      | 9d       | PASS
+ 99   | 1   | 0   | 9c      | 9c       | PASS
+100   | 1   | 0   | 9b      | 9b       | PASS
+101   | 1   | 0   | 9a      | 9a       | PASS
+102   | 1   | 0   | 99      | 99       | PASS
+103   | 1   | 0   | 98      | 98       | PASS
+104   | 1   | 0   | 97      | 97       | PASS
+105   | 1   | 0   | 96      | 96       | PASS
+106   | 1   | 0   | 95      | 95       | PASS
+107   | 1   | 0   | 94      | 94       | PASS
+108   | 1   | 0   | 93      | 93       | PASS
+109   | 1   | 0   | 92      | 92       | PASS
+110   | 1   | 0   | 91      | 91       | PASS
+111   | 1   | 0   | 90      | 90       | PASS
+112   | 1   | 0   | 8f      | 8f       | PASS
+113   | 1   | 0   | 8e      | 8e       | PASS
+114   | 1   | 0   | 8d      | 8d       | PASS
+115   | 1   | 0   | 8c      | 8c       | PASS
+116   | 1   | 0   | 8b      | 8b       | PASS
+117   | 1   | 0   | 8a      | 8a       | PASS
+118   | 1   | 0   | 89      | 89       | PASS
+119   | 1   | 0   | 88      | 88       | PASS
+120   | 1   | 0   | 87      | 87       | PASS
+121   | 1   | 0   | 86      | 86       | PASS
+122   | 1   | 0   | 85      | 85       | PASS
+123   | 1   | 0   | 84      | 84       | PASS
+124   | 1   | 0   | 83      | 83       | PASS
+125   | 1   | 0   | 82      | 82       | PASS
+126   | 1   | 0   | 81      | 81       | PASS
+127   | 1   | 0   | 80      | 80       | PASS
+128   | 1   | 0   | 7f      | 7f       | PASS
+129   | 1   | 0   | 7e      | 7e       | PASS
+130   | 1   | 0   | 7d      | 7d       | PASS
+131   | 1   | 0   | 7c      | 7c       | PASS
+132   | 1   | 0   | 7b      | 7b       | PASS
+133   | 1   | 0   | 7a      | 7a       | PASS
+134   | 1   | 0   | 79      | 79       | PASS
+135   | 1   | 0   | 78      | 78       | PASS
+136   | 1   | 0   | 77      | 77       | PASS
+137   | 1   | 0   | 76      | 76       | PASS
+138   | 1   | 0   | 75      | 75       | PASS
+139   | 1   | 0   | 74      | 74       | PASS
+140   | 1   | 0   | 73      | 73       | PASS
+141   | 1   | 0   | 72      | 72       | PASS
+142   | 1   | 0   | 71      | 71       | PASS
+143   | 1   | 0   | 70      | 70       | PASS
+144   | 1   | 0   | 6f      | 6f       | PASS
+145   | 1   | 0   | 6e      | 6e       | PASS
+146   | 1   | 0   | 6d      | 6d       | PASS
+147   | 1   | 0   | 6c      | 6c       | PASS
+148   | 1   | 0   | 6b      | 6b       | PASS
+149   | 1   | 0   | 6a      | 6a       | PASS
+150   | 1   | 0   | 69      | 69       | PASS
+151   | 1   | 0   | 68      | 68       | PASS
+152   | 1   | 0   | 67      | 67       | PASS
+153   | 1   | 0   | 66      | 66       | PASS
+154   | 1   | 0   | 65      | 65       | PASS
+155   | 1   | 0   | 64      | 64       | PASS
+156   | 1   | 0   | 63      | 63       | PASS
+157   | 1   | 0   | 62      | 62       | PASS
+158   | 1   | 0   | 61      | 61       | PASS
+159   | 1   | 0   | 60      | 60       | PASS
+160   | 1   | 0   | 5f      | 5f       | PASS
+161   | 1   | 0   | 5e      | 5e       | PASS
+162   | 1   | 0   | 5d      | 5d       | PASS
+163   | 1   | 0   | 5c      | 5c       | PASS
+164   | 1   | 0   | 5b      | 5b       | PASS
+165   | 1   | 0   | 5a      | 5a       | PASS
+166   | 1   | 0   | 59      | 59       | PASS
+167   | 1   | 0   | 58      | 58       | PASS
+168   | 1   | 0   | 57      | 57       | PASS
+169   | 1   | 0   | 56      | 56       | PASS
+170   | 1   | 0   | 55      | 55       | PASS
+171   | 1   | 0   | 54      | 54       | PASS
+172   | 1   | 0   | 53      | 53       | PASS
+173   | 1   | 0   | 52      | 52       | PASS
+174   | 1   | 0   | 51      | 51       | PASS
+175   | 1   | 0   | 50      | 50       | PASS
+176   | 1   | 0   | 4f      | 4f       | PASS
+177   | 1   | 0   | 4e      | 4e       | PASS
+178   | 1   | 0   | 4d      | 4d       | PASS
+179   | 1   | 0   | 4c      | 4c       | PASS
+180   | 1   | 0   | 4b      | 4b       | PASS
+181   | 1   | 0   | 4a      | 4a       | PASS
+182   | 1   | 0   | 49      | 49       | PASS
+183   | 1   | 0   | 48      | 48       | PASS
+184   | 1   | 0   | 47      | 47       | PASS
+185   | 1   | 0   | 46      | 46       | PASS
+186   | 1   | 0   | 45      | 45       | PASS
+187   | 1   | 0   | 44      | 44       | PASS
+188   | 1   | 0   | 43      | 43       | PASS
+189   | 1   | 0   | 42      | 42       | PASS
+190   | 1   | 0   | 41      | 41       | PASS
+191   | 1   | 0   | 40      | 40       | PASS
+192   | 1   | 0   | 3f      | 3f       | PASS
+193   | 1   | 0   | 3e      | 3e       | PASS
+194   | 1   | 0   | 3d      | 3d       | PASS
+195   | 1   | 0   | 3c      | 3c       | PASS
+196   | 1   | 0   | 3b      | 3b       | PASS
+197   | 1   | 0   | 3a      | 3a       | PASS
+198   | 1   | 0   | 39      | 39       | PASS
+199   | 1   | 0   | 38      | 38       | PASS
+200   | 1   | 0   | 37      | 37       | PASS
+201   | 1   | 0   | 36      | 36       | PASS
+202   | 1   | 0   | 35      | 35       | PASS
+203   | 1   | 0   | 34      | 34       | PASS
+204   | 1   | 0   | 33      | 33       | PASS
+205   | 1   | 0   | 32      | 32       | PASS
+206   | 1   | 0   | 31      | 31       | PASS
+207   | 1   | 0   | 30      | 30       | PASS
+208   | 1   | 0   | 2f      | 2f       | PASS
+209   | 1   | 0   | 2e      | 2e       | PASS
+210   | 1   | 0   | 2d      | 2d       | PASS
+211   | 1   | 0   | 2c      | 2c       | PASS
+212   | 1   | 0   | 2b      | 2b       | PASS
+213   | 1   | 0   | 2a      | 2a       | PASS
+214   | 1   | 0   | 29      | 29       | PASS
+215   | 1   | 0   | 28      | 28       | PASS
+216   | 1   | 0   | 27      | 27       | PASS
+217   | 1   | 0   | 26      | 26       | PASS
+218   | 1   | 0   | 25      | 25       | PASS
+219   | 1   | 0   | 24      | 24       | PASS
+220   | 1   | 0   | 23      | 23       | PASS
+221   | 1   | 0   | 22      | 22       | PASS
+222   | 1   | 0   | 21      | 21       | PASS
+223   | 1   | 0   | 20      | 20       | PASS
+224   | 1   | 0   | 1f      | 1f       | PASS
+225   | 1   | 0   | 1e      | 1e       | PASS
+226   | 1   | 0   | 1d      | 1d       | PASS
+227   | 1   | 0   | 1c      | 1c       | PASS
+228   | 1   | 0   | 1b      | 1b       | PASS
+229   | 1   | 0   | 1a      | 1a       | PASS
+230   | 1   | 0   | 19      | 19       | PASS
+231   | 1   | 0   | 18      | 18       | PASS
+232   | 1   | 0   | 17      | 17       | PASS
+233   | 1   | 0   | 16      | 16       | PASS
+234   | 1   | 0   | 15      | 15       | PASS
+235   | 1   | 0   | 14      | 14       | PASS
+236   | 1   | 0   | 13      | 13       | PASS
+237   | 1   | 0   | 12      | 12       | PASS
+238   | 1   | 0   | 11      | 11       | PASS
+239   | 1   | 0   | 10      | 10       | PASS
+240   | 1   | 0   | 0f      | 0f       | PASS
+241   | 1   | 0   | 0e      | 0e       | PASS
+242   | 1   | 0   | 0d      | 0d       | PASS
+243   | 1   | 0   | 0c      | 0c       | PASS
+244   | 1   | 0   | 0b      | 0b       | PASS
+245   | 1   | 0   | 0a      | 0a       | PASS
+246   | 1   | 0   | 09      | 09       | PASS
+247   | 1   | 0   | 08      | 08       | PASS
+248   | 1   | 0   | 07      | 07       | PASS
+249   | 1   | 0   | 06      | 06       | PASS
+250   | 1   | 0   | 05      | 05       | PASS
+251   | 1   | 0   | 04      | 04       | PASS
+252   | 1   | 0   | 03      | 03       | PASS
+253   | 1   | 0   | 02      | 02       | PASS
+254   | 1   | 0   | 01      | 01       | PASS
+255   | 1   | 0   | 00      | 00       | PASS
+-------------------------------------------------------------
+TEST COMPLETED
+-------------------------------------------------------------
+- tb.sv:78: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.042 2025-11-02
+- Verilator: $finish at 3us; walltime 0.003 s; speed 760.915 us/s
+- Verilator: cpu 0.003 s on 1 threads; alloced 126 MB
