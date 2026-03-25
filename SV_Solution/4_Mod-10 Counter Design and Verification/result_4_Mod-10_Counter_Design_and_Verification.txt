@@ -1,0 +1,29 @@
+-Info: tb.sv:25: $dumpvar ignored, as Verilated without --trace
+-------------------------------------------------------------
+Cycle | CLK | RST | DUT_OUT | EXPECTED | RESULT
+-------------------------------------------------------------
+  0   | 1   | 1   | 00      | 00       | PASS
+  1   | 1   | 0   | 01      | 01       | PASS
+  2   | 1   | 0   | 02      | 02       | PASS
+  3   | 1   | 0   | 03      | 03       | PASS
+  4   | 1   | 0   | 04      | 04       | PASS
+  5   | 1   | 0   | 05      | 05       | PASS
+  6   | 1   | 0   | 06      | 06       | PASS
+  7   | 1   | 0   | 07      | 07       | PASS
+  8   | 1   | 0   | 08      | 08       | PASS
+  9   | 1   | 0   | 09      | 09       | PASS
+ 10   | 1   | 0   | 00      | 00       | PASS
+ 11   | 1   | 0   | 01      | 01       | PASS
+ 12   | 1   | 0   | 02      | 02       | PASS
+ 13   | 1   | 0   | 03      | 03       | PASS
+ 14   | 1   | 0   | 04      | 04       | PASS
+ 15   | 1   | 0   | 05      | 05       | PASS
+ 16   | 1   | 0   | 06      | 06       | PASS
+ 17   | 1   | 0   | 07      | 07       | PASS
+ 18   | 1   | 0   | 08      | 08       | PASS
+ 19   | 1   | 0   | 09      | 09       | PASS
+-------------------------------------------------------------
+- tb.sv:69: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.042 2025-11-02
+- Verilator: $finish at 220ns; walltime 0.003 s; speed 71.573 us/s
+- Verilator: cpu 0.003 s on 1 threads; alloced 126 MB
