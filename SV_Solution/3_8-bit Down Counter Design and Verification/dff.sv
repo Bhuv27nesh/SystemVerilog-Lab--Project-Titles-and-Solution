@@ -6,7 +6,7 @@ module dff (
     input  logic d,
     output logic q
 );
-    assign d = 1'b1;
+
     always_ff @(posedge clk) begin
         if (reset)
             q <= 1'b0;
