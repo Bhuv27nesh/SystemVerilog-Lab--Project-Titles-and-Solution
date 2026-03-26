@@ -1,0 +1,5 @@
+Write structural Verilog code for a divide-by-256 counter using D flip-flops.
+Implement an OOP-based test bench to validate the counter’s operation.
+Treat the DUT as a black box and compare the output with the expected
+results. Inputs: Clock, Reset. Expected Output: 00000000, 00000001,
+00000010, 00000011, ..., 11111110, 11111111.
