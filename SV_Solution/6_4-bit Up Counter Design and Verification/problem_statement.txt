@@ -1,0 +1,5 @@
+Implement a structural Verilog code for a synchronous 4-bit binary up
+counter using D flip-flops. Design an OOP-based test bench to verify the
+counter’s behavior. Treat the DUT as a black box and compare the output
+with the expected values. Inputs: Clock, Reset. Expected Output: 0000,
+0001, 0010, 0011, ..., 1110, 1111.
